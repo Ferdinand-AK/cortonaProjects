@@ -1,0 +1,24 @@
+from argparse import ArgumentDefaultsHelpFormatter
+
+ergebnis = 0
+
+while True:
+    zahl1 = int(input("Die erste Zahl bitte "))
+    zahl2 = int(input("Die zweite Zahl bitte "))
+
+    operator = input("Wie sollen die Zahlen verrechnet werden ? addieren (+), multiplizieren (*), subtrahieren (-), dividieren (/), (E), (e), (end), (quit), (q) oder (keine Lust mehr =( ) zum abrechen. ")
+
+    if operator == "+":
+        ergebnis = zahl1 + zahl2
+    elif operator == "-":
+        ergebnis = zahl1 - zahl2
+    elif operator == "/":
+        ergebnis = zahl1 / zahl2
+    elif operator == "*":
+        ergebnis = zahl1 * zahl2
+    elif operator in ["E", "e", "end", "quit", "q", "keine Lust mehr =( "]:
+        break
+    else:
+        print("Die Eingabe war falsch, bitte nochmal !")
+    print(ergebnis)
+print("Bis zum nästen mal")
