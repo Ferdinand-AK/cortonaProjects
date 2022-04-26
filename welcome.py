@@ -15,4 +15,4 @@ totalworkingHours = todayWoringkHours + restDaysWorkingHours
 strTotalworkingHours = str(totalworkingHours)
 
 print("Willkommen zum Praktikum Philipp.")
-print("Du hast noch " + strTotalworkingHours + " Stunden und " + str(todayWoringkMinutes) + " Minuten zu arbeiten.")
+print("Du hast noch " + strTotalworkingHours + " Stunden und " + str(todayWoringkMinutes) + " Minuten zu arbeiteb")

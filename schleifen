@@ -1,7 +1,7 @@
 from argparse import ArgumentDefaultsHelpFormatter
 
 ergebnis = 0
-
+print("Ich kann Zahlen beliebig verrechnen.")
 while True:
     zahl1 = int(input("Die erste Zahl bitte "))
     zahl2 = int(input("Die zweite Zahl bitte "))
@@ -21,4 +21,5 @@ while True:
     else:
         print("Die Eingabe war falsch, bitte nochmal !")
     print(ergebnis)
+    print("Willst du noch eine Zahl errechnet haben?")
 print("Bis zum nästen mal")
