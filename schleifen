@@ -1,4 +1,5 @@
 from argparse import ArgumentDefaultsHelpFormatter
+from timeit import repeat
 
 ergebnis = 0
 print("Ich kann Zahlen beliebig verrechnen.")

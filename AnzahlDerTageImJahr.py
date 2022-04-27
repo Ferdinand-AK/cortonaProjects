@@ -9,7 +9,7 @@ def getDaysOfYear(year):
 count = 0
 while True:
     if count == 0:
-        print("Ich kann die Tage in einem beliebigen Jahr ausrechnen. Frage mich eine Zahl ab!")
+        print("Ich kann die Tage in einem beliebigen Jahr ausrechnen. Frage mich ein Jahr ab!")
     elif count == 5:
         print("Du bist ja immernoch dabei. Toll, mach weiter")
     elif count == 10:
