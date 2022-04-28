@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 from functools import partial
 import os
 from pydoc import render_doc
