@@ -8,6 +8,7 @@
 
 import sys
 
+Text = input()
 
 def istFloatZahl(textNummer):
     countComma = 0
@@ -17,8 +18,8 @@ def istFloatZahl(textNummer):
                 countComma += 1
             else:
                 return False
-            
-    if countComma == 1:
+
+    if countComma > 0:
         return True
     else:
         return False
@@ -45,26 +46,15 @@ def istBoolean(text):
     return False
 
 
-
-Text = input()
-
 if istNatuerlicheZahl(Text):
-    print("ich bin eine natürliche Zahl")
+    print("Ich bin eine natürliche Zahl")
 elif istFloatZahl(Text):
-    print("ich bin eine float Zahl")
+    print("Ich bin eine float Zahl")
 elif istTuple(Text):
-    print("ich bin ein tuple")
+    print("Ich bin ein tuple")
 elif istListe(Text):
-    print("ich bin eine liste")
+    print("Ich bin eine liste")
 elif istBoolean(Text):
-    print("ich bin ein boolean")
+    print("Ich bin ein boolean")
 else:
-    print("ich bin ein text")
-
-    # if Text[0] == "[": #list
-    #     print("list") #list
-    # elif Text[0] == "'": #tuple
-    #     print("tuple") #tuple
-    # elif str(Text):
-    #     it_is = True
-    #     print("string")
+    print("Ich bin ein text")
